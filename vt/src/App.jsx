@@ -1,8 +1,8 @@
 // import { Outlet } from 'react-router-dom';
-import './App.css';
-import { darkmodecontext } from './contexts/darkmodecontext';
+import '%PUBLIC_URL%/./App.css';
+import { darkmodecontext } from '%PUBLIC_URL%/./contexts/darkmodecontext';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {Notfound, Navbar,Mainpage,Intro,Contactme,Edu} from './Components';
+import {Notfound, Navbar,Mainpage,Intro,Contactme,Edu} from '%PUBLIC_URL%/./Components';
 import { useState } from 'react';
 // import { useContext } from 'react';
 const App = () => {

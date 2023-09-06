@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import profilepic from "../assets/pics/profilepic.jpg";
+import profilepic from "%PUBLIC_URL%/../assets/pics/profilepic.jpg";
 import Typed from 'typed.js';
 import { toast, ToastContainer, Zoom } from 'react-toastify';
 // import { darkmodecontext } from "../contexts/darkmodecontext";

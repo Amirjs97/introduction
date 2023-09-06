@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
-import { myparticles } from "./particles";
+import { myparticles } from "%PUBLIC_URL%/./particles";
 import CountUp from 'react-countup';
 import { motion, AnimatePresence } from "framer-motion"
 // import { InView, useInView } from 'react-intersection-observer';

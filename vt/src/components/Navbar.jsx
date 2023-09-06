@@ -1,7 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom";
-import { darkmodecontext } from "../contexts/darkmodecontext";
+import { darkmodecontext } from "%PUBLIC_URL%/../contexts/darkmodecontext";
 import { useContext, useEffect, useState } from "react";
-import profilepic from "../assets/pics/profilepic.jpg";
+import profilepic from "%PUBLIC_URL%/../assets/pics/profilepic.jpg";
 import { RandomReveal } from 'react-random-reveal';
 import { motion } from "framer-motion";
 function Navbar() {
