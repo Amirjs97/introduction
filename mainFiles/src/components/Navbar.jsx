@@ -96,7 +96,7 @@ function Navbar() {
                 </div>
 
 
-                <div className="lg:w-9/12 md:w-8/12 w-full">
+                <div className="lg:w-9/12 md:w-8/12 w-full mb-28">
                     <div className="p-4 text-gray-500 relative gap-5">
                         <div className="absolute md:top-3 md:left-3 top-2 left-5 bg-violet-200 dark:bg-slate-600 w-24 h-24 rounded-full flex justify-center items-center ">
                             {dark ? <button onClick={darklight} className="w-fit h-fit">

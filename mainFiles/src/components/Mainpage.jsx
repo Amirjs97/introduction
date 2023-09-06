@@ -22,12 +22,11 @@ function Mainpage() {
             icon: "",
             delay: 1500,
             draggable: true,
-            autoClose: 3000,
+            autoClose: 2500,
             transition: Zoom,
             closeButton: false,
             rtl: true,
             pauseOnHover: false,
-
         });
         return () => {
             typed.destroy();
@@ -38,7 +37,7 @@ function Mainpage() {
     return (
         <>
             <ToastContainer position="top-center" />
-            <div className="lg:w-[85%] md:w-[80%] w-[75%] h-fit relative m-3" >
+            <div className="lg:w-[85%] md:w-[80%] w-[75%] h-fit relative mt-20 mx-4" >
                 <motion.img initial={{ x: '-100rem' }} animate={{ x: 0 }} transition={{delay:0.5, duration:1}}
                     className="w-full h-full rounded-md" src={profilepic} alt="profilepic" />
                 <div className="absolute xl:bottom-[30%] xl:right-[3%] sm:bottom-[30%] sm:right-[3%] bottom-[25%] right-[0%] flex flex-row">
