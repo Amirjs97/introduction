@@ -8,7 +8,7 @@
     "deploy":"gh-pages -d build",
     "predeploy":"react-scrtipts build",
     "dev": "vite --port 3000",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
