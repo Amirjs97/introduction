@@ -1,7 +1,7 @@
 // import { Outlet } from 'react-router-dom';
 import './App.css';
 import { darkmodecontext } from './contexts/darkmodecontext';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import {Notfound, Navbar,Mainpage,Intro,Contactme,Edu} from './Components';
 import { useState } from 'react';
 // import { useContext } from 'react';
@@ -9,7 +9,7 @@ const App = () => {
   const [dark, setdark] = useState(false);
   return (
     <>
-      <BrowserRouter basename='/'>
+      <HashRouter>
         <darkmodecontext.Provider value={{ dark, setdark }}>
           <Routes>
             <Route path='/' element={<Navbar />}>
@@ -21,7 +21,7 @@ const App = () => {
             <Route path='*' element={<Notfound />} />
           </Routes>
         </darkmodecontext.Provider>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
