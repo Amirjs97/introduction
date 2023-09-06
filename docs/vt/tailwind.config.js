@@ -2,7 +2,7 @@
 export default {
   content: [
     "%PUBLIC_URL%/./index.html",
-    "%PUBLIC_URL%./src/**/*.{js,jsx}"
+    "%PUBLIC_URL%/src/**/*.{js,jsx}"
   ],
   darkMode: "class",
   theme: {
