@@ -9,7 +9,7 @@ const App = () => {
   const [dark, setdark] = useState(false);
   return (
     <>
-      <BrowserRouter basename='introproject'>
+      <BrowserRouter basename='htttps://amirjs97.github.io/introduction/docs'>
         <darkmodecontext.Provider value={{ dark, setdark }}>
           <Routes>
             <Route path='/' element={<Navbar />}>
