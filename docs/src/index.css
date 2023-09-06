@@ -6,12 +6,12 @@
 @layer base {
     @font-face{
         font-family: 'yekan';
-        src: url('%PUBLIC_URL%/./assets/yekan-font/Yekan.eot'); /* IE9 Compat Modes */
-        src: url('%PUBLIC_URL%/./assets/yekan-font/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-             url('%PUBLIC_URL%/./assets/yekan-font/Yekan.woff') format('woff2'), /* Super Modern Browsers */
-             url('%PUBLIC_URL%/./assets/yekan-font/Yekan.woff') format('woff'), /* Pretty Modern Browsers */
-             url('%PUBLIC_URL%/./assets/yekan-font/Yekan.ttf')  format('truetype'), /* Safari, Android, iOS */
-             url('%PUBLIC_URL%/./assets/yekan-font/Yekan.svg#svgFontName') format('svg'); /* Legacy iOS */
+        src: url('./assets/yekan-font/Yekan.eot'); /* IE9 Compat Modes */
+        src: url('./assets/yekan-font/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url('./assets/yekan-font/Yekan.woff') format('woff2'), /* Super Modern Browsers */
+             url('./assets/yekan-font/Yekan.woff') format('woff'), /* Pretty Modern Browsers */
+             url('./assets/yekan-font/Yekan.ttf')  format('truetype'), /* Safari, Android, iOS */
+             url('./assets/yekan-font/Yekan.svg#svgFontName') format('svg'); /* Legacy iOS */
     }
     
 }

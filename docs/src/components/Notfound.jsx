@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import error404 from "%PUBLIC_URL%/../assets/error/Comp 2-min.gif";
+import error404 from "../assets/error/Comp 2-min.gif";
 import { useNavigate } from "react-router-dom";
-import { darkmodecontext } from "%PUBLIC_URL%/../contexts/darkmodecontext";
+import { darkmodecontext } from "../contexts/darkmodecontext";
 import { useEffect } from "react";
 
 const Notfound = () => {
