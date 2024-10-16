@@ -31,3 +31,28 @@
 
 من همیشه به دنبال همکاری با افراد جدید و یادگیری از تجربیات دیگران هستم. اگر سوالی دارید یا می‌خواهید همکاری کنیم، با من تماس بگیرید!
 amirjs.prog@gmail.com
+
+                              ------------------------------------------------------------------------------------------------------------------------------------------
+Hello! I'm Amirhossein 👋
+👨‍💻 A web and mobile developer from Tehran, passionate about creating exceptional user experiences.
+
+My Expertise:
+Languages and Frameworks:
+
+React.js and React Native: For building interactive web and mobile applications
+Next.js and Nuxt.js: For developing modern and optimized websites
+Vue.js: For creating dynamic user interfaces
+TypeScript: For writing secure and maintainable code
+Node.js and Socket.io: For building fast and scalable services
+Design and Styling:
+
+Material-UI and Tailwind CSS: For designing beautiful and responsive user interfaces
+Other Skills:
+
+Docker: For managing and deploying applications
+Go: For writing fast and efficient applications
+My Projects:
+I have worked on various projects, including building websites and mobile applications using modern technologies. I am looking for new opportunities to learn and collaborate.
+
+Let’s Connect! 🌍
+I am always eager to collaborate with new people and learn from their experiences. If you have any questions or would like to collaborate, feel free to reach out to me at: amirjs.prog@gmail.com
